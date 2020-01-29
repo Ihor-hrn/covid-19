@@ -1,0 +1,165 @@
+
+
+ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.form-search {
+    text-align: center;
+}
+
+.logo-search-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-search, .contact-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    width: 15em;
+}
+
+.second-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    border: black solid 0px;
+    background-color: blueviolet;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex: 0 1 100%;
+    grid-column: 1 / -1;
+}
+
+.link-nav { 
+    color: black;
+    padding: 10px;
+}
+
+.main-information, .products, .tel-map-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: gray;
+}
+
+.about-items, .about-worker, .about-time-work {
+    display: block; 
+    text-align: center;
+}
+
+.information-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin: 20px;
+}
+
+
+.map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+.time-adress-map {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 30px;
+}
+
+.reclama {
+    text-align: right;
+    margin-right: 25%;
+}
+
+.footer-nav > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer .link-nav {
+    border-bottom: black solid 2px;
+}
+
+footer {
+    background-color: #929292;
+    height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .logo-search-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        margin-bottom: 20px;   
+    }
+
+    .form-search {
+        margin-top: 20px;
+    
+    }
+
+    .contact-information {
+        display: none;
+    }
+
+    .information-about, .about-worker, .about-time-work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-group, .img-calendar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .time-adress-map {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map {
+        margin-bottom: 1em;
+    }
+
+    .reclama {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+
+    .reclama img {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+}
