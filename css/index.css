@@ -1,9 +1,16 @@
+.brand {
+    color: white;
+    font-size: 40px;
 
+}
 
-ul.navbar-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+.brand:hover {
+    text-decoration: none;
+    color: #c8c3fb;
+}
+
+.nav-item {
+    font-size: 25px;
 }
 
 .form-search {
@@ -14,6 +21,11 @@ ul.navbar-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .form-search, .contact-information {
@@ -34,7 +46,7 @@ ul.navbar-nav {
     list-style: none;
     border: black solid 0px;
     background-color: blueviolet;
-    height: 50px;
+    height: 60px;
     margin-left: 5%;
     margin-right: 5%;
     flex: 0 1 100%;
@@ -42,8 +54,14 @@ ul.navbar-nav {
 }
 
 .link-nav { 
-    color: black;
+    color: rgba(0, 0, 0, 0.5);;
     padding: 10px;
+    font-size: 20px;
+}
+
+.link-nav:hover {
+    text-decoration: none;
+    color: #212529;
 }
 
 .main-information, .products, .tel-map-adress {
@@ -52,6 +70,15 @@ ul.navbar-nav {
     justify-content: center;
     align-items: center; 
     color: gray;
+}
+
+.number {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.number:hover {
+    color: blueviolet;
 }
 
 .about-items, .about-worker, .about-time-work {
@@ -67,6 +94,35 @@ ul.navbar-nav {
     margin: 20px;
 }
 
+.side {
+    font-size: 30px;
+}
+
+.side h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.opt-rozdrib {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.opt-rozdrib a {
+    margin: auto;
+    color: blueviolet;
+}
+
+.opt-rozdrib a:hover {
+    text-decoration: none;
+    color: rgb(157, 77, 231);
+}
+
+.advantages h3 {
+    text-align: center;
+    font-size: 30px;
+}
 
 .map {
     overflow:hidden;
