@@ -1,3 +1,7 @@
+main {
+
+}
+
 .brand {
     color: white;
     font-size: 40px;
@@ -54,7 +58,7 @@
 }
 
 .link-nav { 
-    color: rgba(0, 0, 0, 0.5);;
+    color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     font-size: 20px;
 }
@@ -69,7 +73,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    color: gray;
 }
 
 .number {
@@ -106,7 +109,8 @@
 .opt-rozdrib {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 15%;
 }
 
 .opt-rozdrib a {
@@ -124,6 +128,23 @@
     font-size: 30px;
 }
 
+.advantages h5 {
+    font-size: 25px;
+}
+
+.advantages p {
+    font-size: 20px;
+}
+
+.advantages img {
+    height: 50%;
+    width: 50%;
+}
+
+.h-waiting {
+    font-size: 30px;
+}
+
 .map {
     overflow:hidden;
     padding-bottom:56.25%;
@@ -138,6 +159,9 @@
     position:absolute;
 }
 
+.adress-time {
+    font-size: 20px;
+}
 
 .time-adress-map {
     display: grid;
@@ -146,6 +170,8 @@
 }
 
 .reclama {
+    height:100%;
+    width:100%;
     text-align: right;
     margin-right: 25%;
 }
@@ -159,7 +185,7 @@
 }
 
 footer .link-nav {
-    border-bottom: black solid 2px;
+    
 }
 
 footer {
@@ -175,18 +201,18 @@ footer {
         margin-bottom: 20px;   
     }
 
-    .form-search {
-        margin-top: 20px;
-    
-    }
-
-    .contact-information {
+    .contact-information img{
         display: none;
     }
 
     .information-about, .about-worker, .about-time-work {
         display: flex;
         flex-direction: column;
+    }
+
+    .advantages img {
+    height: 100%;
+    width: 100%;
     }
 
     .img-group, .img-calendar {
