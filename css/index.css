@@ -1,16 +1,9 @@
 main {
-
+    
 }
 
-.brand {
-    color: white;
-    font-size: 40px;
-
-}
-
-.brand:hover {
-    text-decoration: none;
-    color: #c8c3fb;
+header .navbar-light .navbar-nav .nav-link {
+    color: black;
 }
 
 .nav-item {
@@ -58,7 +51,7 @@ main {
 }
 
 .link-nav { 
-    color: rgba(0, 0, 0, 0.5);
+    color: black;
     padding: 10px;
     font-size: 20px;
 }
@@ -106,6 +99,22 @@ main {
     margin-bottom: 40px;
 }
 
+.side h4 {
+    text-align: center;
+}
+
+.advantages-quality {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+/* .advantages-quality h5, .advantages-quality p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
 .opt-rozdrib {
     display: flex;
     flex-direction: row;
@@ -136,10 +145,10 @@ main {
     font-size: 20px;
 }
 
-.advantages img {
+/* .advantages img {
     height: 50%;
     width: 50%;
-}
+} */
 
 .h-waiting {
     font-size: 30px;
