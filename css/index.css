@@ -103,17 +103,17 @@ header .navbar-light .navbar-nav .nav-link {
     text-align: center;
 }
 
-.advantages-quality {
+.advantages-img-text {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
+    margin-top: 35px;
 }
 
-/* .advantages-quality h5, .advantages-quality p {
+.advantages-text h5, .advantages-text p {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-} */
+    justify-content: flex-start;
+    margin-left: 20px;
+}
 
 .opt-rozdrib {
     display: flex;

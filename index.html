@@ -58,7 +58,11 @@
         </nav>
 
         <div class="logo-search-contact">
-            <a><h2><b>Виробництво пінополістирольних плит</b></h2></a>
+            <div id="logo-main">
+                <a><h2><b>Виробництво пінополістирольних плит</b></h2></a>
+                <button onclick="get_random_color();" id="id">blue</button>
+                <button onclick="changeColor('red');">red</button>
+            </div>
             <div class="contact-information">
                 <div class="number">
                     <a href="tel:380635761366">063-576-13-66</a>
@@ -124,15 +128,27 @@
 
         <div class="advantages">
             <h3>Переваги нашого магазину</h3>
-                <div class="advantages-quality">
-                    <img src="img/quality.png" alt="100% якості"><h5>Якість</h5>
-                    <p>Якісний товар, виготовлений з найкращої сировини, за найвищими стандартами.</p>
+                <div class="advantages-img-text">
+                    <img src="img/quality.png" alt="100% якості">
+                    <div class="advantages-text">
+                        <h5>Якість</h5>
+                        <p>Якісний товар, виготовлений з найкращої сировини, за найвищими стандартами.</p>
+                    </div>
                 </div>
-                    <img src="img/fura.png" alt="фура"><h5>Швидкість</h5>
+                <div class="advantages-img-text">
+                    <img src="img/fura.png" alt="фура">
+                    <div class="advantages-text">
+                        <h5>Швидкість</h5>
                         <p>Ми надаєм швидку і якісну доставку товару, в будь-яку точку Львова, Львівської обл.</p>
-                    <img src="img/unnamed.png" alt="надійність"><h5>Надійність</h5>
-                        <p>Свої послуги Ми надаєм з 2002 року, за цей час в Нас <i>"до холери"</i> багато задоволених клієнтів. Ми несем повну відповідальність за товар, який виготовляєм і розповсюджуєм.</p>
-                
+                    </div>
+                </div>
+                <div class="advantages-img-text">
+                    <img src="img/unnamed.png" alt="надійність">
+                    <div class="advantages-text">
+                        <h5>Надійність</h5>
+                        <p>Свої послуги Ми надаєм з 2002 року, за цей час в Нас було багато задоволених клієнтів, адже Ми несем повну відповідальність за товар, який виготовляєм і розповсюджуєм.</p>
+                    </div>
+                </div>
         </div>
 
         <br>
