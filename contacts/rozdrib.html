@@ -13,35 +13,57 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: blueviolet;">
-            <h1 class="navbar-brand" href="#" style="color: white; font-size: 140%"><b><a href="../index.html" class="brand">Магазин
-                        будматеріалів</a></b></h1>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" style="visibility: hidden;">Ghj vfufpby<span class="sr-only"></span></a>
+                </li>
+            </ul>
+            <h1 class="navbar-brand" href="#" style="color: white; font-size: 140%">
+                <a class="logo" href="../index.html">
+                    <img src="../img/logoGradientUkraine.png" width="300px" alt="логотип градієнт україна">
+                </a>
+            </h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../aboutStore.html">Про магазин<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../partner.html">Партнери</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pagePriceList.html">Прайс лист</a>
-                    </li>
-                    <li class="nav-item">
-                    </li>
-                </ul>
+                <div class="navbar-position">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <p style="visibility: hidden;">fkslas</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../aboutStore.html"><b>Про магазин</b><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <p style="visibility: hidden;">fkslas</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../partner.html"><b>Партнери</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <p style="visibility: hidden;">fkslas</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pagePriceList.html"><b>Прайс лист</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <p style="visibility: hidden;">dkfkdjfkslas</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <div class="logo-search-contact">
-            <a class="logo" href="index.html">
-                <img src="../img/logoGradientUkraine.png" width="300px" alt="логотип градієнт україна">
-            </a>
-        
+            <div id="logo-main">
+                <a>
+                    <h2><b>Виробництво пінополістирольних плит</b></h2>
+                </a>
+            </div>
             <div class="contact-information">
                 <div class="number">
                     <a href="tel:380635761366">063-576-13-66</a>
@@ -59,21 +81,21 @@
         </div>
 
         <ul class="second-nav">
-            <li class="nav-item">
+            <li class="nav-item nav-item-second">
                 <a class="link-nav" href="../items.html">Каталог товарів</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-item-second">
                 <a class="link-nav" href="../document.html">Документи</a>
             </li>
-            <li class="nav-item">
-                <a class="link-nav" href="../opt.html">Контакти</a>
+            <li class="nav-item nav-item-second">
+                <a class="link-nav" href="opt.html">Контакти</a>
             </li>
         </ul>
 
 
     </header>
     <main>
-        <div class="side ">
+        <div class="side">
             <h2>Градієнт Україна - виробник пінопласту</h2>
             <div class="opt-rozdrib">
                 <a href="opt.html">
@@ -117,9 +139,12 @@
     <footer>
         <section class="footer-nav">
             <nav class="nav">
-                <a class="link-nav" href="../#">Про магазин</a>
-                <a class="link-nav " href="../#">Партнери</a>
-                <a class="link-nav" href="../#">Прайс лист</a>
+                <a class="link-nav" href="../aboutStore.html">Про магазин</a>
+                <a class="link-nav " href="../partner.html">Партнери</a>
+                <a class="link-nav" href="../pagePriceList.html">Прайс лист</a>
+                <a class="link-nav" href="../items.html">Каталог товарів</a>
+                <a class="link-nav" href="../document.html">Документи</a>
+                <a class="link-nav" href="../contacts/opt.html">Контакти</a>
                 <img src="../img/visa.png" alt="Віза" width="70">
                 <img src="../img/mastercard.png" alt="Мастеркард" width="70">
             </nav>
@@ -135,7 +160,10 @@
             crossorigin="anonymous"></script>
     </footer>
 
-
+    <script async src="js/smooth-scroll.js"></script>
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>
     <script defer src="../js/index.js"></script>
 </body>
 
