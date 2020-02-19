@@ -1,6 +1,3 @@
-main {
-    
-}
 
 header .navbar-light .navbar-nav .nav-link {
     color: black;
@@ -68,6 +65,17 @@ header .navbar-light .navbar-nav .nav-link {
     align-items: center; 
 }
 
+.priceList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informationAbout {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .number {
     font-size: 20px;
     text-decoration: underline;
@@ -103,6 +111,27 @@ header .navbar-light .navbar-nav .nav-link {
     text-align: center;
 }
 
+.minfin {
+margin-left: -20rem;
+position: sticky;
+/* top: 0;*/
+}
+
+/* .minfin {
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.minfinWeather {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+} */
+
+.weather {
+
+}
+
 .advantages-img-text {
     display: flex;
     margin-top: 35px;
@@ -119,7 +148,7 @@ header .navbar-light .navbar-nav .nav-link {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: 15%;
+    margin-left: 100px;
 }
 
 .opt-rozdrib a {
