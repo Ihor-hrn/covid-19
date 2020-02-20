@@ -4,3 +4,21 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.minfin {
+    margin-left: 0rem;
+    position: sticky;
+    top: 2em;
+    min-height: 2em;
+}
+
+.weather {
+    margin-left: 95rem;
+    position: sticky;
+    top: 2em;
+    min-height: 2em;
+}
+
+.priceList {
+    margin-top: -0rem;
+}
