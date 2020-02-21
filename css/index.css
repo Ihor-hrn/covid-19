@@ -100,7 +100,7 @@ header .navbar-light .navbar-nav .nav-link {
 
 .side {
     font-size: 30px;
-    margin-top: -10rem;
+    margin-top: -7rem;
 }
 
 .side h2 {
@@ -113,32 +113,10 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 .minfin {
-    margin-left: -20rem;
+    margin-left: -18rem;
     position: sticky;
     top: 2em;
     min-height: 2em;
-}
-
-.weather {
-    margin-left: 80rem;
-    position: sticky;
-    top: 2em;
-    min-height: 2em;
-}
-
-/* .minfin {
-    margin-right: 15rem;
-    margin-left: 15rem;
-}
-
-.minfinWeather {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-} */
-
-.weather {
-
 }
 
 .advantages-img-text {
@@ -183,6 +161,10 @@ header .navbar-light .navbar-nav .nav-link {
     font-size: 20px;
 }
 
+.main-information {
+    margin-top: -7rem;  
+}
+
 /* .advantages img {
     height: 50%;
     width: 50%;
@@ -198,6 +180,7 @@ header .navbar-light .navbar-nav .nav-link {
     position:relative;
     height:0;
 }
+
 .map iframe {
     left:0;
     top:0;
@@ -258,8 +241,33 @@ footer {
     }
 
     .advantages img {
-    height: 100%;
-    width: 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .minfin, .weather {
+        margin: 0px;
+        margin-left: 2rem;
+        position: static;
+    }
+
+    .weather {
+        margin-left: 7rem;
+    }
+
+    .side {
+        margin-top: 2rem;
+        margin: auto;
+    }
+
+    .opt-rozdrib img, .opt-rozdrib h4 {
+        width: 10rem;
+        margin-left: -10rem;
+        padding-left: 4rem;
+    }
+
+    .advantages-img-text {
+        width: 5rem;
     }
 
     .img-group, .img-calendar {
