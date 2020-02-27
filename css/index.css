@@ -71,6 +71,12 @@ header .navbar-light .navbar-nav .nav-link {
     align-items: center;
 }
 
+.priceList iframe {
+    height: 800px;
+    width: 445px;
+    margin-top: -7rem;
+}
+
 .informationAbout {
     margin-left: 10%;
     margin-right: 10%;
