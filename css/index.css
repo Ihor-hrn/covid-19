@@ -112,8 +112,19 @@ header .navbar-light .navbar-nav .nav-link {
     text-align: center;
 }
 
+.certificate img {
+    width: 100px;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.certificate img:focus {
+    width: 700px;
+}
+
 .minfin {
-    margin-left: -18rem;
+    margin-left: 0rem;
     position: sticky;
     top: 2em;
     min-height: 2em;
