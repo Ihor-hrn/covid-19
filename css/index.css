@@ -72,8 +72,8 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 .priceList iframe {
-    height: 800px;
-    width: 445px;
+    height: 500px;
+    width: 400px;
     margin-top: -7rem;
 }
 
@@ -119,14 +119,36 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 .certificate img {
-    width: 100px;
+    width: 300px;
     margin-left: 250px;
     margin-right: 150px;
     margin-top: 50px;
 }
 
 .certificate img:focus {
-    width: 700px;
+    width: 850px;
+}
+
+.minfinIndex {
+    margin-left: -7rem;
+    position: sticky;
+    top: 2em;
+    min-height: 2em;
+}
+
+.minfinPagePriceList {
+    margin-left: 5rem;
+    position: sticky;
+    top: 2em;
+    min-height: 2em;
+}
+
+.minfinItems {
+    margin-left: 25rem;
+}
+
+.informationAboutItems {
+    margin-top: -8rem;
 }
 
 .minfin {
@@ -241,6 +263,10 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+    .logo img {
+        margin-top: -4rem;
+    }
+
     .logo-search-contact {
         display: flex;
         flex-direction: column;
@@ -252,9 +278,26 @@ footer {
         display: none;
     }
 
+    .second-nav {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .main-information {
+        margin-top: 0rem;
+    }
+
     .information-about, .about-worker, .about-time-work {
         display: flex;
         flex-direction: column;
+    }
+
+    .informationAboutItems {
+        margin-top: 0rem;
+    }
+
+    .informationAboutItems img {
+        width: 330px;
     }
 
     .advantages img {
@@ -262,14 +305,45 @@ footer {
         width: 100%;
     }
 
-    .minfin, .weather {
+    .minfin {
         margin: 0px;
         margin-left: 2rem;
         position: static;
     }
 
-    .weather {
-        margin-left: 7rem;
+    .minfinIndex {
+        margin-left: 0rem;
+        position: static;
+    }
+
+    .minfinPagePriceList {
+        margin-left: 0rem;
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .minfinItems {
+        margin-left: auto;
+    }
+
+    .certificate img:focus {
+        width: 350px;
+        margin-left: 1rem;
+    }
+
+    .certificate img {
+        width: 100px;
+        margin-left: 1rem;
+        margin-right: auto;
+    }
+
+    .priceList iframe {
+        height: 510px;
+        width: 300px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: auto;
     }
 
     .side {
