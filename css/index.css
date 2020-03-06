@@ -114,6 +114,11 @@ header .navbar-light .navbar-nav .nav-link {
     margin-bottom: 40px;
 }
 
+.side h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .side h4 {
     text-align: center;
 }
@@ -130,7 +135,7 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 .minfinIndex {
-    margin-left: -7rem;
+    margin-left: -14rem;
     position: sticky;
     top: 2em;
     min-height: 2em;
@@ -174,12 +179,16 @@ header .navbar-light .navbar-nav .nav-link {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: 100px;
+    margin-left: auto;
 }
 
 .opt-rozdrib a {
     margin: auto;
     color: blueviolet;
+}
+
+.opt-rozdrib img {
+    width: 25rem;
 }
 
 .opt-rozdrib a:hover {
@@ -220,14 +229,6 @@ header .navbar-light .navbar-nav .nav-link {
     height:0;
 }
 
-.map iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
 .adress-time {
     font-size: 20px;
 }
@@ -236,6 +237,23 @@ header .navbar-light .navbar-nav .nav-link {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-column-gap: 30px;
+}
+
+.opt-rozdrib-text {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.opt-rozdrib-text img {
+    margin-top: 0rem;
+}
+
+.map iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .reclama {
@@ -371,23 +389,32 @@ footer {
         flex-direction: column;
     }
 
+    .opt-rozdrib-text {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .opt-rozdrib-text img {
+        margin-top: 0rem;
+    }
+
     .map {
         margin-bottom: 1em;
     }
 
     .reclama {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
     }
 
     .reclama img {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
 
 }
