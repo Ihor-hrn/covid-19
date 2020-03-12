@@ -263,6 +263,15 @@ header .navbar-light .navbar-nav .nav-link {
     margin-right: 25%;
 }
 
+main {
+    background: url(/img/background.png);
+    background-size: cover;
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
 .footer-nav > * {
     display: flex;
     flex-direction: row;
