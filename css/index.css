@@ -17,6 +17,11 @@ header .navbar-light .navbar-nav .nav-link {
     justify-content: space-around;
 }
 
+#logo-main h2 {
+    font-size: 50px; 
+    margin-top: 4rem;
+}
+
 .logo {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -72,8 +77,8 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 .priceList iframe {
-    height: 500px;
-    width: 400px;
+    height: 525px;
+    width: 410px;
     margin-top: -7rem;
 }
 
@@ -263,25 +268,12 @@ header .navbar-light .navbar-nav .nav-link {
     margin-right: 25%;
 }
 
-main {
-    background: url(/img/background.png);
-    background-size: cover;
-    position: fixed;
-    left: 0; right: 0; top: 0; bottom: 0;
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
-}
-
 .footer-nav > * {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-}
-
-footer .link-nav {
-    
 }
 
 footer {
